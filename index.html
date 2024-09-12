@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+    <Style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px 7px;
+        }
+    </Style>
+</head>
+<!--  lista para moverse en la pagina  -->
+
+<body>
+    <header>
+        <h1>Dayson David Salcedo R.
+            <h2> Portafolio Digital</h2>
+
+        </h1>
+        <p>Deportista / Estudiante</p>
+        <nav>
+            <ul>
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--  imformacion perosnal  -->
+    <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <img src="img/IMG-20240120-WA0005.jpg" width=100px; height=150px; alt="Foto de perfil">
+
+        <p>Hola, soy Dayson David Salcedo R. Soy Deportista de alto rendimiento, tengo 17 años y cuento con experiencia
+            en auxiliar de bodega.
+        </p>
+    </section>
+
+    <!--  informacion sobre mi experiencias   -->
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <article>
+            <h3>Deportista y seleccion Colombia</h3>
+            <p>fui uno de los atletas en representar a la tricolor en los juegos centroamericanos del alba en "venezuela
+                - caracas", Mi responsabilidad es cumplir con la asistencia trabjar en lo tecnico tactico y el fisico al
+                igual que cumplir con las exigencias dadas por la liga antioqueña y mis logros son
+                Campeon de los intercolegiados 3 años consecutivos, sub-campeon a nivel nacional, sub-campeon
+                centroamericano, campeon departamental y sub-campeon.
+                .</p>
+        </article>
+        <article>
+            <h3>Auxiliar de carga y descarga</h3>
+            <p>Resivir y descargar las mulas/camiones que llegaran a la bodega , mi responsabilidad era descargar y
+                registrar los productos que llegaran a la bodega y logros en la empresa, ejercer los propositos
+                planteados en el tiempo estimado y mejorado el ambiente de trabajo con buena actitud.</p>
+        </article>
+    </section>
+    <!--  mis proyectos tanto personales como laborales  -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project">
+
+            <h3>Proyecto 1</h3>
+            <p>Tengo un proyecto que se esta realizando en visual studio code con java,
+                el cual consiste en crear una alicacion de una empresa de productos de motos,
+                que desea que en dicha app, los usuarios tengan, un inicio de secion, seccion de compra,
+                una seccion donde se exponen los productos y sus precios y un metodo de pago.
+                en este proyecto yo soy el programador y mi equipo de trabajo se encarga de la parte visual.
+
+            </p>
+            <img src="img/practicas-desarollo-software.jpeg" width=350px; height=250px; alt="Proyecto 1">
+            <h3> puedes ver un ejemplo grafico refenrete al tema aqui </h3>
+
+            <a href="https://www.exito.com/?srsltid=AfmBOopfHfFZWeIlCvk9mySvH2pXyyC8QoQCIdEPdj5Bawg9_DyYDQyF">Referencia grafica</a>
+
+        </div>
+        <div class="proyectos">
+
+            <h3>Proyecto 2</h3>
+            <p>Este proyecto es mas personal, consiste en aprender a ejecutar una tecnica de pierna llamada uchi-mata en
+                todas sus variantes,
+                de manera que sea tan impredesible como para lanzar al oponente en el momento menos esperado y asi ganar
+                de manera mas facil y tecnica.
+            </p>
+            <img src="img/b7eede_85ec36f210974c228435e42798c272b3~mv2.webp" width=450px; height=350px; alt="Proyecto 2">
+            <h3> puedes indagar aqui para saber un poco mas sobre el tema</h3>
+
+            <a
+                href="https://aprenderartesmarciales.com/la-tecnica-del-uchi-mata-como-ejecutarla-con-eficacia/#google_vignette">Aprende
+                uchimata</a>
+
+                <h2>-----------------------------------------------------------------------------------------------------</h2>
+        </div>
+    </section>
+
+    <section id="contacto">       <!--  formas de contacto   -->
+        <h2> Formulario de Contacto</h2>
+        <form action="/enviar-mensaje" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="30" required></textarea><br><br>
+            <a href=""></a>
+            <button type="submit">Enviar</button>
+
+            <h3>Tambien puedes contactarme por mi correo electronico </h3>
+
+            <a href="Daysonsalcedor@gmail.com">Correo Electrónico</a>
+            <h3> tambien por mi perfil de tiktok</h3>
+            <a href="https://www.tiktok.com/@david_salcedo1?is_from_webapp=1&sender_device=pc">TIKTOK</a>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; Dayson David Salcedo R.. </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html
